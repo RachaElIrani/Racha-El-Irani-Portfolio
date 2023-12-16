@@ -16,6 +16,7 @@ import InputForm from "./Components/InputForm/inputForm";
 import Footer from "./Components/Footer/Footer";
 import Menu from "./Components/Menu/Menu";
 import { useHistory } from "react-router-dom";
+import johnny from "./images/people/johnny.jpeg";
 function App() {
   // use useState menu
   const [menu, setMenu] = useState(false);
@@ -228,8 +229,8 @@ function App() {
           <img
             src={homepageimage}
             alt="homepageimage"
-            width="auto"
-            height="620px"
+            width="50%"
+            height="auto"
             className="HomepageImage"
           />
 
@@ -242,15 +243,15 @@ function App() {
               <img
                 src={design1}
                 alt="design1"
-                width="auto"
-                height="196px"
+                // width="auto"
+                // height="196px"
                 className="design1"
               />
               <img
                 src={web}
                 alt="web"
-                width="200px"
-                height="auto"
+                // width="200px"
+                // height="auto"
                 className="web"
               />
             </div>
@@ -258,15 +259,15 @@ function App() {
               <img
                 src={design2}
                 alt="design2"
-                width="200px"
-                height="auto"
+                // width="200px"
+                // height="auto"
                 className="web"
               />
               <img
                 src={mobile}
                 alt="mobile"
-                width="auto"
-                height="196px"
+                // width="auto"
+                // height="196px"
                 className="design1"
               />
             </div>
@@ -337,10 +338,11 @@ function App() {
         </div>
         {/* End of work section*/}
         {/* Start of Blablabla section*/}
-        <div className="BlablablaContainer" id="saying">
+        {/* <div className="BlablablaContainer" id="saying">
           <span className="BlablablaTitle">What they’re saying</span>
           <div className="Thesayings">
             <Sayings
+            image={johnny}
               style="right"
               textstyle="Textleft"
               text="Racha seamlessly created and integrated complex design systems into
@@ -349,7 +351,7 @@ function App() {
             />
             <Sayings style="left" textstyle="Textright" />
           </div>
-        </div>
+        </div> */}
         {/* end of Blablabla section*/}
         {/* Start of contact us section*/}
         <div className="ContactUsContainer" id="ContactUs">

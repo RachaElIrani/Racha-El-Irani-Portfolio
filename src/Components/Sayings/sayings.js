@@ -19,8 +19,9 @@ function Sayings(props) {
       {props.style == "right" ? (
         <div className="sayContainerleft">
           <div className="whoSay">
-            {/* <img src="" width={56} height={56}/> */}
-            <div className="Sayimage"></div>
+            <img src={props.image} width={56} height={56} className="Sayimage"/>
+            
+            {/* <div className="Sayimage"></div> */}
             <span className="nameof">Johnny Bou Malhab</span>
             <span className="descriptionof">Team Lead</span>
           </div>

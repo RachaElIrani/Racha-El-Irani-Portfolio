@@ -161,7 +161,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width: 100%;
+  width: auto;
 }
 .Servicesdescr {
   color: #909090;
@@ -170,25 +170,28 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 100%;
+  width: auto;
 }
 .tagSection {
   display: flex;
   flex-direction: row;
   gap: 8px;
-  width: 100%;
+  width: auto;
 }
 .ServicesImage {
   display: flex;
   flex-direction: column;
   gap: 24px;
   width: 50%;
+  height: auto;
 }
 .ServicesImage1 {
   display: flex;
   /* display: flex; */
   flex-direction: row;
   gap: 24px;
+  width: 100%;
+  height:auto;
 }
 .tagSection1 {
   display: flex;
@@ -197,12 +200,13 @@ body {
 }
 
 .web {
-  max-width: auto;
-  max-height: 100%;
+  width:32%;
+ height: auto;
+
 }
 .design1 {
-  max-width: 100%;
-  max-height: auto;
+  width:50%;
+ height: auto;
 }
 /* Services page Responsive*/
 
@@ -316,7 +320,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    width: 100%;
+    width: 50%;
   }
   .ServicesImage1 {
     display: flex;
