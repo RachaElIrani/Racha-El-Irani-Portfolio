@@ -1,38 +1,584 @@
-.App {
+body {
+  background-color: #f4f4f4;
+}
+.PageOneContainer {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+/* Home page*/
+.HomeContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  gap: 24px;
+}
+
+.HomeText {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  width: auto; /* Take up the full available width */
+  margin-left: auto; /* Push the content to the right if there's extra space */
+  margin-right: auto;
+  width: 50%;
+}
+
+.HomeTitle {
+  color: #01071c;
+  font-family: Test Founders Grotesk;
+  font-size: 88px;
+  font-weight: 500;
+  /* Limit the maximum width */
+}
+.HomeDescription {
+  color: #909090;
+  font-family: Test Founders Grotesk;
+  font-size: 24px;
+  font-weight: 400;
+  width: auto; /* Limit the maximum width */
+}
+.HomeButton {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+/* Home page Responsive*/
+
+/*for small screen */
+@media only screen and (max-width: 767px) {
+  .PageOneContainer {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  /* Home page*/
+  .HomeContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 40px;
+    width: auto;
+  }
+
+  .HomeText {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: auto; /* Take up the full available width */
+    margin-left: auto; /* Push the content to the right if there's extra space */
+    margin-right: auto;
+  }
+
+  .HomeTitle {
+    color: #01071c;
+    font-family: Test Founders Grotesk;
+    font-size: 40px;
+    font-weight: 500;
+    /* Limit the maximum width */
+  }
+  .HomeDescription {
+    color: #909090;
+    font-family: Test Founders Grotesk;
+    font-size: 24px;
+    font-weight: 400;
+    width: auto; /* Limit the maximum width */
+  }
+}
+
+/*for medium screen */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .PageOneContainer {
+    margin-left: 88px;
+    margin-right: 88px;
+    width: auto;
+  }
+  /* Home page*/
+  .HomeContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .HomeText {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    width: auto; /* Take up the full available width */
+    margin-left: auto; /* Push the content to the right if there's extra space */
+    margin-right: auto;
+    width: 50%;
+    width: auto;
+  }
+
+  .HomeTitle {
+    color: #01071c;
+    font-family: Test Founders Grotesk;
+    font-size: 64px;
+    font-weight: 500;
+    /* Limit the maximum width */
+  }
+  .HomeDescription {
+    color: #909090;
+    font-family: Test Founders Grotesk;
+    font-size: 22px;
+    font-weight: 400;
+    width: auto; /* Limit the maximum width */
+  }
+  .HomeButton {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 992px) {
+}
+/* Services page */
+
+.ServiccesContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 173px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+}
+.ServicesText {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 50%;
+}
+.ServicesTitle {
+  color: #01071c;
+  font-family: Test Founders Grotesk;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 100%;
+}
+.Servicesdescr {
+  color: #909090;
+  font-family: Test Founders Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+}
+.tagSection {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  width: 100%;
+}
+.ServicesImage {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 50%;
+}
+.ServicesImage1 {
+  display: flex;
+  /* display: flex; */
+  flex-direction: row;
+  gap: 24px;
+}
+.tagSection1 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.web {
+  max-width: auto;
+  max-height: 100%;
+}
+.design1 {
+  max-width: 100%;
+  max-height: auto;
+}
+/* Services page Responsive*/
+
+/*for small screen */
+@media only screen and (max-width: 767px) {
+  .ServiccesContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1;
+  }
+  .ServicesText {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+  }
+  .ServicesTitle {
+    color: #01071c;
+    font-family: Test Founders Grotesk;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+  }
+  .Servicesdescr {
+    color: #909090;
+    font-family: Test Founders Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+  }
+  .tagSection {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 100%;
+  }
+  .ServicesImage {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width:100%;
+  }
+  .ServicesImage1 {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .web {
+    max-width: auto;
+    max-height: 100%;
+  }
+  .design1 {
+    max-width: 100%;
+    max-height: auto;
+  }
+}
+
+/*for medium screen */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ServiccesContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 173px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1;
+  }
+  .ServicesText {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: auto;
+    margin-top: 32px;
+  }
+  .ServicesTitle {
+    color: #01071c;
+    font-family: Test Founders Grotesk;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: auto;
+  }
+  .Servicesdescr {
+    color: #909090;
+    font-family: Test Founders Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+  }
+  .tagSection {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 100%;
+  }
+  .ServicesImage {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+  .ServicesImage1 {
+    display: flex;
+    /* display: flex; */
+    flex-direction: row;
+    gap: 24px;
+  }
+  .tagSection1 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .web {
+    max-width: auto;
+    max-height: 100%;
+  }
+  .design1 {
+    max-width: 100%;
+    max-height: auto;
+  }
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 992px) {
+}
+
+/* Work page */
+.WorkContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 173px;
+  flex: 1;
+}
+
+.WorkTitle {
+  color: #01071c;
+  text-align: center;
+  font-family: Test Founders Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  white-space: nowrap;
+}
+.WorkTag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.WorkText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.WorkSection {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+/* Work page Responsive*/
+
+/*for small screen */
+@media only screen and (max-width: 767px) {
+  .WorkContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    flex: 1;
+  }
+  
+  .WorkTitle {
+    color: #01071c;
+    text-align: center;
+    font-family: Test Founders Grotesk;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    white-space: inherit;
+  }
+  .WorkTag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .WorkText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  .WorkSection {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 32px;
+  }
+}
+
+/*for medium screen */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Work page */
+  .WorkContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 173px;
+    flex: 1;
+    width: 100%;
+  }
+
+  .WorkTitle {
+    color: #01071c;
+    text-align: center;
+    font-family: Test Founders Grotesk;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    white-space: inherit;
+    width: 100%;
+    flex: 1;
+  }
+  .WorkTag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    /* width:100%; */
+  }
+  .WorkText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: auto;
+  }
+  .WorkSection {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 32px;
+  }
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 992px) {
+}
+
+/* Blablabla page*/
+
+.BlablablaContainer {
+  display: flex;
+  flex-direction: column;
+  /* gap: 56px; */
+  margin-top: 173px;
+  width: auto;
+  gap: 40px;
+}
+.Thesayings {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.BlablablaTitle {
+  color: #01071c;
+  text-align: center;
+  font-family: Test Founders Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Blablabla page Responsive*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/*for small screen */
+@media only screen and (max-width: 767px) {
+  .BlablablaContainer {
+    display: flex;
+    flex-direction: column;
+    /* gap: 56px; */
+    margin-top: 64px;
+    width: auto;
+    gap: 40px;
   }
+  .Thesayings {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .BlablablaTitle {
+    color: #01071c;
+    text-align: center;
+    font-family: Test Founders Grotesk;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+  }
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*for medium screen */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 992px) {
+}
+/* Contact Us  page*/
+.ContactUsContainer {
+  margin-top: 173px;
+  gap: 80px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  margin-bottom: 173px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Contact Us page Responsive*/
+
+/*for small screen */
+@media only screen and (max-width: 767px) {
+  .ContactUsContainer {
+    margin-top: 173px;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 173px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/*for medium screen */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ContactUsContainer {
+    margin-top: 64px;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 992px) {
 }

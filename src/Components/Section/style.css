@@ -1,0 +1,30 @@
+.SectionCointainer{
+    background-color: white;
+    padding: 8px 16px;
+    text-align: center;
+    color: #01071C;
+    font-family: Test Founders Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.SectionCointainer:hover{
+    padding: 8px 16px;
+    text-align: center;
+    color: #3E68F6;
+    background-color: #E0E7FE;
+    text-decoration: none;
+}
+.SectionCointaineractive{
+    background-color: #E0E7FE;
+    padding: 8px 16px;
+    text-align: center;
+    color: #3E68F6;
+    font-family: Test Founders Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    border-radius: 8px;
+    text-decoration: none;
+}

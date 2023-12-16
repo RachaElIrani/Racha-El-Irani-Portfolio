@@ -1,0 +1,79 @@
+.activebutton {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  background-color: #3e68f6;
+  border-radius: 8px;
+  color: var(--background-white, #fff);
+  font-family: Test Founders Grotesk;
+  font-size: 18px;
+  font-style: medium;
+  align-content: center;
+  text-decoration: none;
+
+}
+.Buttonsecondary {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  border: 2px solid #01071c; /* Specify border style, width, and color */
+  border-radius: 8px;
+  color: #01071c;
+  font-family: Test Founders Grotesk;
+  font-size: 18px;
+  font-style: medium;
+  align-content: center;
+  text-decoration: none;
+
+}
+.ghost {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  border-radius: 8px;
+  color: #3e68f6;
+  font-family: Test Founders Grotesk;
+  font-size: 18px;
+  font-style: medium;
+  align-content: center;
+  text-decoration: none;
+}
+
+/*for small screen */
+@media only screen and (max-width: 767px) {
+  .active {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+  .Buttonsecondary {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+}
+
+/*for medium screen */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .active {
+    font-size: 16px;
+    padding: 12px 20px;
+    white-space: nowrap;
+  }
+  .Buttonsecondary {
+    font-size: 16px;
+    padding: 12px 20px;
+    white-space: nowrap;
+  }
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 992px) {
+}

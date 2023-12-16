@@ -1,0 +1,390 @@
+/* An inside look  page*/
+
+.InsideLook {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+  margin-top: 100px;
+}
+.InsideLookText {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 32px;
+}
+.InsideLookTitle {
+  color: #01071c;
+  font-family: Test Founders Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+}
+.InsideLookDesc {
+  color: #909090;
+  font-family: Test Founders Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+}
+/* An inside look  Responsive*/
+/*for small screen */
+@media only screen and (max-width: 767px) {
+  .InsideLook {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 64px;
+  }
+  .InsideLookText {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+  }
+  .InsideLookTitle {
+    color: #01071c;
+    font-family: Test Founders Grotesk;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .InsideLookDesc {
+    color: #909090;
+    font-family: Test Founders Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+  }
+  .Bexwork {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*for medium screen */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .InsideLook {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 100px;
+  }
+  .InsideLookText {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+  }
+  .InsideLookTitle {
+    color: #01071c;
+    font-family: Test Founders Grotesk;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .InsideLookDesc {
+    color: #909090;
+    font-family: Test Founders Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+  }
+  .Bexwork {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 992px) {
+}
+/* An inside look  page*/
+.RoleSection {
+  display: flex;
+  flex-direction: row;
+  gap: 160px;
+  margin-top: 173px;
+}
+.Roletext {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 32px;
+}
+.RoleTitle {
+  color: #01071c;
+  font-family: Test Founders Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+}
+.RoleDesc {
+  color: #909090;
+  font-family: Test Founders Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+}
+/* Role section  Responsive*/
+/*for small screen */
+@media only screen and (max-width: 767px) {
+  .RoleSection {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 64px;
+  }
+  .Roletext {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+  }
+  .RoleTitle {
+    color: #01071c;
+    font-family: Test Founders Grotesk;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .RoleDesc {
+    color: #909090;
+    font-family: Test Founders Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+  }
+}
+
+/*for medium screen */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .RoleSection {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 173px;
+  }
+  .Roletext {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+  }
+  .RoleTitle {
+    color: #01071c;
+    font-family: Test Founders Grotesk;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .RoleDesc {
+    color: #909090;
+    font-family: Test Founders Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+  }
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 992px) {
+}
+
+/* Challenge page*/
+
+.ChallengeSection {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 173px;
+}
+
+.ChallengeTitle {
+  color: #01071c;
+  font-family: Test Founders Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+}
+.ChallengeDesc {
+  color: #909090;
+  font-family: Test Founders Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+}
+/* Challenge  Responsive*/
+/*for small screen */
+@media only screen and (max-width: 767px) {
+  .ChallengeSection {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 64px;
+  }
+  .ChallengeTitle {
+    color: #01071c;
+    font-family: Test Founders Grotesk;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .ChallengeDesc {
+    color: #909090;
+    font-family: Test Founders Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    /* width: 100%; */
+  }
+}
+
+/*for medium screen */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ChallengeSection {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 173px;
+  }
+
+  .ChallengeTitle {
+    color: #01071c;
+    font-family: Test Founders Grotesk;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .ChallengeDesc {
+    color: #909090;
+    font-family: Test Founders Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+  }
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 992px) {
+}
+
+/* Solution page*/
+
+.SolutionSection {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 173px;
+}
+
+.SolutionTitle {
+  color: #01071c;
+  font-family: Test Founders Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+}
+.SolutionDesc {
+  color: #909090;
+  font-family: Test Founders Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+}
+.Decs1Title {
+  color: #909090;
+  font-family: Test Founders Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Decs1Desc {
+  color: #909090;
+  font-family: Test Founders Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* Challenge  Responsive*/
+/*for small screen */
+@media only screen and (max-width: 767px) {
+  .SolutionSection {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 64px;
+  }
+  .SolutionTitle {
+    color: #01071c;
+    font-family: Test Founders Grotesk;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .SolutionDesc {
+    color: #909090;
+    font-family: Test Founders Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    /* width: 100%; */
+  }
+  .Decs1Title {
+    color: #909090;
+    font-family: Test Founders Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .Decs1Desc {
+    color: #909090;
+    font-family: Test Founders Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+/*for medium screen */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .SolutionSection {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 173px;
+  }
+
+  .SolutionTitle {
+    color: #01071c;
+    font-family: Test Founders Grotesk;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .SolutionDesc {
+    color: #909090;
+    font-family: Test Founders Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+  }
+ 
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 992px) {
+}

@@ -1,0 +1,48 @@
+.FooterContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: #01071c;
+  padding: 16px 250px;
+  bottom: 0;
+  /* position: sticky; */
+}
+.footerLogo {
+  color: #fff;
+  font-family: Test Founders Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  flex: 1;
+  /* white-space: nowrap; */
+}
+.phonenumber {
+  color: #fff;
+  font-family: Test Founders Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+/*for small screen */
+@media only screen and (max-width: 767px) {
+  .FooterContainer {
+    padding: 16px 48px;
+  }
+}
+
+/*for medium screen */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .FooterContainer {
+    padding: 16px 88px;
+  }
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 992px) {
+ 
+}

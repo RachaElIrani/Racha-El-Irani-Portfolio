@@ -1,0 +1,38 @@
+.success {
+  display: flex;
+  flex-direction: row;
+  color: #30c675;
+  background-color: #eefaf4;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  animation: fadeInOut 0.5s ease-in-out;
+  position: fixed;
+  bottom: 20px; 
+  left: 50%;
+}
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.error {
+  display: flex;
+  flex-direction: row;
+  color: #EA3A3D;
+  background-color: #FDEFEF;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  animation: fadeInOut 0.5s ease-in-out;
+  position: fixed;
+  bottom: 200px; 
+  left: 10%;
+}
